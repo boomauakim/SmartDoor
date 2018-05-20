@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5E881C20B08D64001B0629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5E881B20B08D64001B0629 /* ViewController.swift */; };
 		0F6315A620AF0D4D00F9855F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6315A520AF0D4D00F9855F /* AppDelegate.swift */; };
-		0F6315A820AF0D4D00F9855F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6315A720AF0D4D00F9855F /* ViewController.swift */; };
 		0F6315AB20AF0D4D00F9855F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6315A920AF0D4D00F9855F /* Main.storyboard */; };
 		0F6315AD20AF0D4E00F9855F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F6315AC20AF0D4E00F9855F /* Assets.xcassets */; };
 		0F6315B020AF0D4E00F9855F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F6315AE20AF0D4E00F9855F /* LaunchScreen.storyboard */; };
 		0F6315BB20AF0D4E00F9855F /* SmartDoorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6315BA20AF0D4E00F9855F /* SmartDoorTests.swift */; };
+		0F6315C720AF1F5900F9855F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F6315C620AF1F5900F9855F /* Roboto-Bold.ttf */; };
+		0F6315C920AF1F6A00F9855F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F6315C820AF1F6A00F9855F /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F5E881B20B08D64001B0629 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F6315A220AF0D4D00F9855F /* SmartDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6315A520AF0D4D00F9855F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F6315A720AF0D4D00F9855F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F6315AA20AF0D4D00F9855F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F6315AC20AF0D4E00F9855F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F6315AF20AF0D4E00F9855F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		0F6315B620AF0D4E00F9855F /* SmartDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F6315BA20AF0D4E00F9855F /* SmartDoorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartDoorTests.swift; sourceTree = "<group>"; };
 		0F6315BC20AF0D4E00F9855F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F6315C620AF1F5900F9855F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		0F6315C820AF1F6A00F9855F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,9 @@
 		0F6315A420AF0D4D00F9855F /* SmartDoor */ = {
 			isa = PBXGroup;
 			children = (
+				0F6315C520AF1F2200F9855F /* Fonts */,
 				0F6315A520AF0D4D00F9855F /* AppDelegate.swift */,
-				0F6315A720AF0D4D00F9855F /* ViewController.swift */,
+				0F5E881B20B08D64001B0629 /* ViewController.swift */,
 				0F6315A920AF0D4D00F9855F /* Main.storyboard */,
 				0F6315AC20AF0D4E00F9855F /* Assets.xcassets */,
 				0F6315AE20AF0D4E00F9855F /* LaunchScreen.storyboard */,
@@ -94,6 +99,15 @@
 				0F6315BC20AF0D4E00F9855F /* Info.plist */,
 			);
 			path = SmartDoorTests;
+			sourceTree = "<group>";
+		};
+		0F6315C520AF1F2200F9855F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0F6315C820AF1F6A00F9855F /* Roboto-Regular.ttf */,
+				0F6315C620AF1F5900F9855F /* Roboto-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +193,8 @@
 			files = (
 				0F6315B020AF0D4E00F9855F /* LaunchScreen.storyboard in Resources */,
 				0F6315AD20AF0D4E00F9855F /* Assets.xcassets in Resources */,
+				0F6315C920AF1F6A00F9855F /* Roboto-Regular.ttf in Resources */,
+				0F6315C720AF1F5900F9855F /* Roboto-Bold.ttf in Resources */,
 				0F6315AB20AF0D4D00F9855F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +213,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F6315A820AF0D4D00F9855F /* ViewController.swift in Sources */,
 				0F6315A620AF0D4D00F9855F /* AppDelegate.swift in Sources */,
+				0F5E881C20B08D64001B0629 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
